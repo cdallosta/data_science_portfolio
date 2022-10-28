@@ -1,5 +1,4 @@
-from os import environ
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict
 
 from config import Config
 from utils.utility import get_request, item_generator

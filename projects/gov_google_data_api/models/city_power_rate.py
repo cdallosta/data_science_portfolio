@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint
 
 from .google_maps import get_lat_long
 from .power_rate import get_power_rate

@@ -1,6 +1,4 @@
-from typing import Any, Dict, List, Tuple
-
-from flask import Blueprint, abort, jsonify, make_response
+from flask import Blueprint, jsonify, make_response
 from models.google_maps import get_lat_long
 
 google_maps_api = Blueprint("google_maps_api", __name__)
